@@ -5,6 +5,7 @@ node_modules/
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
@@ -37,3 +38,31 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Build
+android/
+ios/
+build/
+
+# Misc
+*.log
+*.lock
+coverage/
+
+# Firebase (if any)
+firebaseConfig.js
